@@ -1,0 +1,49 @@
+.container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    height: 100%;
+    margin-left: 30rem;
+}
+h1  {
+    font-size: 4rem;
+    margin: 0;
+}
+ul {
+    width: 22.5rem;
+    border: 0.2rem solid darkgrey;
+}
+
+li  {
+    list-style: none;
+}
+form div    {
+    padding-top: 2rem;
+}
+
+form input  {
+    width: 25rem;
+}
+
+form textarea   {
+    width: 25rem;
+}
+
+form textarea:hover {
+    cursor: pointer;
+    border: 0.1rem solid red;
+}
+form input:hover    {
+    cursor: pointer;
+    border: 0.1rem solid red;
+
+}
+.clear-local    {
+    width: 25.4rem;
+    height: 2rem;
+}
+#send-btn   {
+    width: 25.4rem;
+    height: 2rem;
+}
